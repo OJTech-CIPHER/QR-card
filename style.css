@@ -1,0 +1,50 @@
+  
+  body {
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+    font-family:'Open Sans';
+    src:url(https://fonts.google.com/specimen/Outfit);
+    text-align: center;
+    
+  }
+
+    .container1 {
+        
+        background-color:hsl(0, 0%, 100%);
+        width:300px;
+        height: 500px;
+        margin: 20px auto;
+        border-radius: 10px;
+    }
+
+    img{
+        border-radius: 10px 10px;
+        width:280px;
+        height: 300px;
+        margin: 10px auto;
+    }
+
+
+    .maintext_1{
+      font-size: 25px;  
+    }
+
+    .maintext_2{
+      margin-left: 20px;
+      margin-right: 20px;
+      text-align: center;
+      font-size: 18px;
+      color: hsl(220, 15%, 55%); 
+    }
+
+    @media screen and (max-width:600px) {
+      .container1 {
+          width: 375px;
+      }
+      .img {
+      
+        width: 375px;  
+      }   
+      
+    }
+
